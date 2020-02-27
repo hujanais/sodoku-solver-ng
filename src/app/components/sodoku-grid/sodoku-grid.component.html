@@ -1,0 +1,19 @@
+<div class='container'>
+    <div>
+        <span class='div-searchDepth'>Search depth: </span>
+        <span class='div-searchDepth'>{{searchModel?.recursionDepth}}</span>
+        <span class='div-searchDepth'>Iterations: </span>
+        <span class='div-searchDepth'>{{searchModel?.numOfMoves}}</span>
+    </div>
+    <div class='div-row' *ngFor='let cellRow of cells'>
+        <app-cell [cell]='cellRow[0]'></app-cell>
+        <app-cell [cell]='cellRow[1]'></app-cell>
+        <app-cell [cell]='cellRow[2]'></app-cell>
+        <app-cell [cell]='cellRow[3]'></app-cell>
+        <app-cell [cell]='cellRow[4]'></app-cell>
+        <app-cell [cell]='cellRow[5]'></app-cell>
+        <app-cell [cell]='cellRow[6]'></app-cell>
+        <app-cell [cell]='cellRow[7]'></app-cell>
+        <app-cell [cell]='cellRow[8]'></app-cell>
+    </div>
+</div>

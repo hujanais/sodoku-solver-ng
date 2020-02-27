@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'soduku-ts'`, () => {
+  it(`should have as title 'sodoku-ts'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('soduku-ts');
+    expect(app.title).toEqual('sodoku-ts');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('soduku-ts app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('sodoku-ts app is running!');
   });
 });

@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('soduku-ts app is running!');
+    expect(page.getTitleText()).toEqual('sodoku-ts app is running!');
   });
 
   afterEach(async () => {

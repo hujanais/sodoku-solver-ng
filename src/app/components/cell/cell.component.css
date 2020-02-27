@@ -1,0 +1,22 @@
+.div-container {
+    display:flex;
+    width: 100%;
+}
+
+.div-input {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: x-large;
+    color: orange;
+    background-color: #424242;
+}
+
+.div-light-background {
+    background-color: #424242;
+}
+
+.div-dark-background {
+    background-color: #424242;
+}
